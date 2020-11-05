@@ -1,0 +1,392 @@
+@media (max-width:992px) {
+
+    .log-res-wrapper {
+
+        flex-direction: column;
+    }
+
+    .login-side {
+
+        margin-bottom: 40px;
+        padding: 0 50px !important;
+    } 
+
+    .login-side, .register-side {
+
+        width: 100% !important;
+    }
+
+    .block-image-width-text,
+    .detail-image-side,
+    .scholarship-col {
+
+        margin-bottom: 30px;
+    }
+
+    .know-more-wrapper {
+
+        padding: 0 !important;
+    }
+
+    .know-more-wrapper {
+
+        padding: 0;
+    }
+
+    nav.navigation {
+        position: fixed;
+        top: 0;
+        left: 100%;
+        height: 100%;
+        width: 100%;
+        background: #fff;
+        z-index: 6;
+        transition:500ms ease all;
+    }
+
+    nav.navigation ul li {
+
+        display: block;
+    }
+
+    nav.navigation ul li a {
+
+        padding: 10px;
+        margin: 0;
+        border-bottom: 1px solid #f2f2f2;
+    }
+
+    .top-menu-bar {
+
+        display: block;
+    }
+
+    .top-menu-bar.active {
+        position: fixed;
+        top: 0;
+        right: 20px;
+    }
+
+    nav.navigation.open {
+
+        left: 0;
+    }
+
+    .block-content {
+
+        margin-left: 15px;
+    }
+
+    .block-content p {
+
+        font-size: 25px;
+    }
+
+    .block-content a {
+        font-size: 16px;
+        max-width: 150px;
+    }
+
+    .gold-exhibitor-list li a img {
+        width: 75px;
+    }
+
+    .all-sec-padding {
+
+        padding: 40px 0;
+    }
+
+    section.four-block-section.all-sec-padding {
+
+        padding-top: 80px;
+    }
+
+    .subscription-form {
+
+        padding: 0;
+    }
+}
+
+@media (max-width:767px) {
+
+    form.counseling-form {
+
+        padding: 0 !important;
+    }
+
+    .service-text p,
+    .know-more-wrapper p {
+
+        text-align: left;
+    }
+
+    .register-side button.btn.dropdown-toggle.btn-light, .register-side select, .register-side input {
+
+        font-size: 12px !important;
+    }
+
+    .login-side, .register-side {
+
+        padding: 15px !important;
+    }
+
+    .input-select-wrapper {
+
+        flex-direction: column;
+    }
+
+    .input-select-wrapper input:first-child {
+
+        margin-right: 0 !important;
+    }
+
+    .gold-wrapper:last-child {
+
+        margin-bottom: 0;
+    }
+
+    .detail-main-image {
+        height: auto;
+        width: 100%;
+    }
+
+    .stall-main-image img {
+        height: auto !important;
+        width: 100% !important;
+    }
+
+    .innerpage-title h1,
+    .title-wrapper h2,
+    .main-banner-content h1 {
+
+        font-size: 25px !important;
+    }
+
+    .main-banner-content h1 span {
+
+        font-size: 35px;
+    }
+
+    .btn {
+
+        font-size: 16px;
+        border: 2px solid #fff;
+        max-width: 200px;
+    }
+
+    .log-res-btn {
+
+        border: 2px solid #223238;
+    }
+
+    .main-banner-section {
+
+        height: 400px;
+    }
+
+    .subscription-form button {
+
+        font-size: 16px;
+        width: 25%;
+    }
+
+    .subscription-form input {
+
+        width: 75%;
+    }
+
+    .exhibitor-logo img {
+        height: 70px;
+    }
+
+    .gold-exhibitor-list {
+        display: block;
+        width: 100%;
+        overflow-y: scroll;
+        white-space: nowrap;
+    }
+
+    .gold-exhibitor-list li {
+
+        display: inline-block;
+        margin: 0 15px;
+    }
+
+    .silver-exhibitor-list li a {
+
+        margin: 0;
+    }
+}
+
+@media (max-width:600px) {
+
+    .logo img {
+        height: 60px;
+    }
+
+    body {
+
+        margin-top: 80px;
+    }
+
+    .block-two .slick-dots, .block-slider .slick-dots{
+
+        right: auto;
+        bottom:0;
+        width: 100%;
+    }
+
+    .block-two .slick-dots li, .block-slider .slick-dots li {
+
+        display: inline-block;
+    }
+
+    .title-wrapper h2::after,
+    .title-wrapper h2::before {
+
+        width: 70px;
+    }
+
+    .chat-wrapper li {
+        display: block !important;
+        width: 100% !important;
+    }
+
+    form.counseling-form {
+
+        flex-direction: column;
+    }
+
+    .counseling-form .dropdown.bootstrap-select,
+    .counseling-form .bootstrap-select > .dropdown-toggle {
+
+        width: 100% !important;
+    }
+}
+
+@media (max-width:480px) {
+
+    .modal-wrapper .modal-dialog {
+
+        margin: 0;
+    }
+
+
+
+    .block-image-content {
+
+        padding: 15px;
+    }
+
+    .title-wrapper h2, .main-banner-content h1 {
+
+        font-size: 20px;
+    }
+
+    .title-wrapper h2::after, .title-wrapper h2::before {
+
+        width: 30px;
+    }
+
+    .subscribe-title span {
+
+        font-size: 16px;
+    }
+
+    .subscription-form {
+
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .subscription-form button,
+    .subscription-form input{
+
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .block-image-content h3 {
+
+        font-size: 25px;
+    }
+
+    .btn {
+        max-width: initial;
+        display: inline-block;
+        width: auto;
+    }
+
+    .log-res-btn {
+
+        display: block;
+        width: 150px;
+    }
+
+    .event-logo img {
+
+        height: 70px ;
+    }
+
+    .footer-menu li {
+
+        display: block;
+        text-align: left;
+    }
+
+    .footer-menu li a {
+
+        margin: 10px 0;
+    }
+
+    .footer-media li a {
+        font-size: 18px;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        border: 2px solid #6b7a83;
+        margin: 0 10px;
+    }
+
+    .block-content {
+
+        padding-left: 30px;
+    }
+
+    .detail-main-content h1 span {
+
+        font-size: 30px !important;
+    }
+
+    .know-more-wrapper h2 {
+
+        font-size: 25px !important;
+    }
+
+    .dropdown.bootstrap-select {
+        width: 100% !important;
+        margin-bottom: 10px;
+    }
+
+    form.counseling-form select, form.counseling-form button {
+
+        max-width: inherit !important; 
+        width: 100%;
+    }
+
+    .detail-page-content-side {
+
+        padding-left: 0 !important;
+    }
+
+    button.download-btn {
+
+        margin-top: 40px !important;
+    }
+
+    button.download-btn {
+
+        font-size: 16px !important;
+    }
+
+}

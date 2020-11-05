@@ -1,0 +1,634 @@
+
+
+/* stall page starts */
+
+.innerpage-title {
+
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.innerpage-title h1 {
+
+    font-size: 54px;
+    font-weight: 900;
+    text-transform: uppercase;
+    position: relative;
+    display: inline-block;
+}
+
+.top-stall-wrapper {
+
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.stall-main-image {
+
+    display: inline-block;
+    margin-bottom: 40px;
+}
+
+.stall-main-image img {
+
+    height: auto;
+    width: 80%;
+}
+
+.stall-btn {
+
+    color: #8BC53F;
+    border-color: #8BC53F;
+    display: block;
+    max-width: 190px;
+    margin: 0 auto;
+    border: 2px solid;
+    font-size: 16px;
+}
+
+.other-stall .stall-main-image img {
+
+    height: auto;
+    width: 100%;
+}
+
+
+.in-association-with .stall-main-image img {
+    
+    width:80%;
+    margin:0 auto;
+}
+
+
+/* stall page ends */
+
+/* detail page starts */
+
+.scholarship-wrapper {
+    margin-bottom: 80px;
+}
+
+
+
+.detail-main-image {
+
+    height: 390px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.detail-image-content {
+
+    position: relative;
+    background-color: rgb(139 197 63 / 0.2);
+    padding: 40px 30px;
+    padding-top: 80px;
+    padding-left: 45px;
+}
+
+.stall-logo {
+
+    position: absolute;
+    top: -60px;
+    left: 30px;
+    display: block;
+    background-color: #fff;
+    padding: 20px;
+}
+
+.stall-logo img {
+
+    height: 70px;
+    width: auto;
+}
+
+.detail-image-content ul li {
+
+    display: block;
+    list-style: none;
+}
+
+.detail-image-content ul li a {
+    
+    font-size: 18px;
+    color: #223238;
+    margin-bottom: 10px;
+    font-weight: 600;
+    display: block;
+}
+
+.detail-main-content h1 {
+
+    font-size: 34px;
+    margin-bottom: 30px;
+    position: relative;
+    padding-bottom: 15px;
+}
+
+.detail-main-content h1::before {
+
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    height: 3px ;
+    width: 50px;
+    background: #8BC53F;
+    border-radius: 5px;
+}
+
+.detail-main-content h1 span {
+
+    display: block;
+    font-weight: 900;
+    font-size: 46px;
+    color: #8BC53F;
+}
+
+.detail-page-content-side {
+    padding-left: 50px;
+}
+
+
+.detail-main-content p {
+
+    margin-bottom: 15px;
+}
+
+
+.detail-main-content {
+    margin-bottom: 30px;
+}
+
+.chat-section h2 {
+
+    font-size: 22px;
+    font-weight: 600;
+    text-transform: uppercase;
+
+}
+
+.chat-section p {
+
+    margin-bottom: 30px;
+}
+
+.chat-section {
+
+    margin-bottom: 30px;
+}
+
+.chat-wrapper li {
+
+    list-style: none;
+    display: inline-block;
+    width: 49%;
+    margin-bottom: 30px;
+}
+
+.chat-wrapper li a span {
+
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    border: 1px solid #C5CFD3;
+    border-radius: 10px;
+    display: inline-block;
+    text-align: center;
+    margin-right: 15px;
+}
+
+
+.chat-wrapper li a img {
+
+    width: 25px;
+    height: auto;
+}
+
+
+.chat-wrapper li a  {
+
+    font-size: 18px;
+    color: #223238;
+    font-weight: 600;
+}
+
+
+form.counseling-form {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 0 60px;
+}
+
+
+form.counseling-form select,
+form.counseling-form button {
+
+    padding: 7px 20px;
+    border: 1px solid #C5CFD3;
+    font-size: 14px;
+    display: block;
+    border-radius: 10px;
+    font-size: 16px;
+
+    
+}
+
+.confirm_btn {
+
+    background: #8BC53F;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    max-width: 150px;
+    padding: 10px 20px;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    text-transform: initial;
+    letter-spacing: 1px;
+}
+
+.detail-top-section {
+
+    padding-bottom: 40px;
+}
+
+.know-more-section {
+
+    background: #f3f5f6;
+}
+
+.know-more-wrapper {
+
+    text-align: center;
+    padding: 0 100px;
+}
+
+.know-more-wrapper h2 {
+
+    margin-bottom: 40px;
+    font-size: 34px;
+    font-weight: 600;
+    display: inline-block;
+    position: relative;
+    padding-bottom: 5px;
+
+}
+
+.know-more-wrapper h2::before {
+
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    background: #8BC53F;
+    height: 3px;
+    border-radius: 5px;
+    width: 80px;
+    transform: translate(-50%,0);
+}
+
+.know-more-wrapper p {
+
+    margin-bottom: 80px;
+}
+
+.scholarship-wrapper h3,
+.know-more-wrapper h3 {
+
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.service-text p {
+
+    margin-bottom: 0;
+}
+
+.service-text {
+    margin-bottom: 40px;
+}
+
+.scholarship-wrapper h3 {
+
+    text-align: center;
+}
+
+.scholarship-col h4 {
+
+    display: block;
+    padding: 15px;
+    background: #8BC53F;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 700;
+    text-align: center;
+}
+
+a.scholar-image,
+span.scholar-image{
+    display: block;
+    width: 100%;
+    background: #fff;
+    padding: 50px 15px;
+    overflow: hidden;
+    text-align: center;
+}
+
+a.scholar-image img,
+span.scholar-image img{
+
+    height: 65px;
+    width: auto;
+}
+
+button.download-btn {
+    display: block;
+    width: 100%;
+    border-left: none;
+    border-right: none;
+    padding: 15px;
+    font-size: 22px;
+    font-weight: 600;
+    color: #223238;
+    margin-top: 80px;
+    border-color: #223238;
+    transition: 500ms ease all;
+    outline: none;
+    background: transparent;
+}
+
+button.download-btn img {
+
+    height: 30px;
+    width: auto;
+    margin-left: 20px;
+}
+
+button.download-btn:hover {
+
+    background: #8BC53F;
+    color: #fff;
+    border-color: #8BC53F;
+    border-bottom-color: #8BC53F;;
+}
+
+
+.counseling-form .bootstrap-select > .dropdown-toggle {
+
+    width: 100%;
+    padding: 10px 15px;
+    background-color: transparent;
+    outline: none;
+    
+
+}
+
+.counseling-form .bootstrap-select .dropdown-toggle .filter-option-inner-inner {
+    overflow: hidden;
+    font-weight: 300;
+    text-transform: initial;
+    color: #223238;
+}
+
+.counseling-form .dropdown.bootstrap-select {
+    width: 100px !important;
+    background-color: transparent;
+}
+
+.counseling-form .bootstrap-select > .dropdown-toggle:hover {
+
+    border-radius: 10px;
+    background: initial;
+    border-color:#C5CFD3;
+    outline: none;
+}
+
+.institution-wrapper h3 {
+
+    margin-bottom: 50px !important;
+}
+
+.institution-col {
+
+    margin-bottom: 80px;
+}
+
+.institution-col a img {
+
+    width: 75%;
+    height: auto;
+}
+
+.institution-col a {
+
+    background: transparent !important;
+    padding: 0;
+}
+
+.fee-section {
+
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+
+/* exhibitors page starts  */
+
+
+.exhibitors-page-wrapper {
+
+    padding-bottom: 200px;
+}
+
+.scholarship-page-wrapper {
+
+    margin-bottom: 40px;
+}
+
+a#back__button {
+    position: fixed;
+    top: 147px;
+    right: 20px;
+    background: #8bc53f;
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-size: 12px;
+    color: #fff;
+    font-weight: 600;
+}
+
+
+.close-btn {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #8bc53f;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    font-weight: 800;
+    color: #fff;
+    cursor:pointer;
+   
+}
+
+
+.filter_wrapper {
+    
+    position: fixed;
+    top: 100px;
+    right: -350px;
+    background: #fff;
+    width: 350px;
+    padding: 40px 20px;
+    box-shadow:0 4px 6px 0px rgba(0, 0, 0, 0.1), 0 0px 4px 0px rgba(0, 0, 0, 0.06);
+    z-index: 5;
+
+}
+#filter_trigger {
+    
+    position: fixed;
+    top: 200px;
+    right: 0;
+    background: #89c53e;
+    padding: 5px;
+    font-size: 14px;
+    font-weight: 900;
+    color: #fff;
+    display: block;
+    border: none;
+    outline: none;
+    z-index: 2;
+    line-height: 18px;
+    text-align: left;
+    padding-left: 10px;
+    text-transform: uppercase;
+}
+
+span.select2.select2-container.select2-container--default {
+    
+    width:100% !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.all_stall_wrapper .slick-slide {
+
+    margin: 0 30px;
+}
+
+
+.all_stall_wrapper .slide-arrow {
+
+    /* width: 40px;
+    height: 40px;
+    line-height: 40px; */
+    background: transparent;
+    outline: none;
+    border: none;
+    position: absolute;
+    top: 50%;
+    outline: none;
+    border: none;
+    z-index: 2;
+}
+
+.all_stall_wrapper .slide-arrow:focus {
+
+    outline: none;
+    border: none;
+}
+
+.all_stall_wrapper .prev-arrow {
+
+    left: 0;
+}
+
+.all_stall_wrapper .next-arrow {
+
+    right: 0;
+}
+
+.all_stall_wrapper .next-arrow::before {
+
+    content: "\f061";
+    font-family: fontawesome;
+    font-size: 16px;
+    color: #f5822054;
+}
+.all_stall_wrapper .prev-arrow::before {
+    
+    content: "\f060";
+    font-family: fontawesome;
+    font-size: 16px;
+    color: #f5822054;
+}
+
+.all_stall_wrapper .slick-arrow:hover:before {
+
+    color: #f58220;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:992px) {
+    
+    .stall-btn {
+        display: block;
+        max-width: inherit;
+        font-size: 13px;
+        padding: 7px 10px;
+    }
+}
+
+
+@media (max-width:600px) {
+
+    .counseling-form .dropdown.bootstrap-select {
+
+        width: 100% !important;
+    }
+
+    .counseling-form .bootstrap-select > .dropdown-toggle {
+
+        max-width: inherit;
+        margin-bottom: 15px;
+    }
+    
+}
+
+@media (max-width:480px){
+    
+    .stall-btn {
+        
+        font-size:10px;
+        padding:5px;
+    }
+}
